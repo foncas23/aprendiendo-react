@@ -1,8 +1,7 @@
 import './App.css'
-import { TwitterFollowCard } from './TwitterFollowCard'
+import { TwitterFollowCard } from './Components/TwitterFollowCard'
 
 export function App() {
-  const formatUserName = (username) => `@${username}`
   return (
     <section className='App'>
       <TwitterFollowCard isFollowing={true} username="midudev" name="Miguel Ángel Durán" />
